@@ -1,0 +1,7 @@
+<div id="page" class="ppjp-page">
+    {{#each pageContent}}
+        {{~#if module~}}
+            {{{moduleHelper module.view module.model}}}
+        {{~/if~}}
+    {{/each}}
+</div>

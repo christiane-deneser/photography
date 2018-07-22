@@ -1,0 +1,38 @@
+// base style
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url("/assets/img/bg-pixel.png");
+    color: $color-text;
+    font-family: $font-family;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+a {
+    display: inline-block;
+}
+
+a,
+a:visited,
+a:active {
+    color: $red-dark;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}

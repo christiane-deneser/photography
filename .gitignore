@@ -1,0 +1,31 @@
+# OSX
+.DS_Store
+
+# node
+/node_modules
+
+# sass
+.sass-cache
+
+# bourbon files
+/bower_components
+
+# logs
+/logs/*
+
+# generated assets
+/dist
+
+# vendor files
+/src/assets/scss/vendor
+/src/assets/js/vendor
+
+# static site directory
+/export-static
+
+# Intellij Idea
+.idea/
+*.iml
+
+# Vagrant
+.vagrant

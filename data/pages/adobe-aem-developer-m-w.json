@@ -1,0 +1,42 @@
+{
+    "projectName": "christiane-deneser-photography",
+    "projectDescription": "Project description",
+    "pageContent": [
+        {
+            "module": {
+                "view": "DummyHeader/DummyHeader",
+                "dummy": true
+            }
+        },
+        {
+            "module": {
+                "view": "JobTitle/JobTitle",
+                "json": "JobTitle/JobTitle"
+            }
+        },
+        {
+            "module": {
+                "view": "JobDescription/JobDescription",
+                "json": "JobDescription/JobDescription"
+            }
+        },
+        {
+            "module": {
+                "view": "References/References",
+                "json": "References/References"
+            }
+        },
+        {
+            "module": {
+                "view": "Impressions/Impressions",
+                "json": "Impressions/Impressions"
+            }
+        },
+        {
+            "module": {
+                "view": "Map/Map",
+                "json": "Map/Map"
+            }
+        }
+    ]
+}

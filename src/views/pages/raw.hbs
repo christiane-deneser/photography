@@ -1,0 +1,7 @@
+{{#each pageContent}}
+    {{~#if module~}}
+        {{#unless module.dummy}}
+            {{{moduleHelper module.view module.model}}}
+        {{/unless}}
+    {{~/if~}}
+{{/each}}

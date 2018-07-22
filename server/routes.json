@@ -1,0 +1,14 @@
+{
+    "route": [
+        {
+            "path": "/",
+            "view": "pages/index",
+            "model": "index"
+        },
+        {
+            "path": "/adobe-aem-developer-m-w",
+            "view": "pages/index",
+            "model": "adobe-aem-developer-m-w"
+        }
+    ]
+}

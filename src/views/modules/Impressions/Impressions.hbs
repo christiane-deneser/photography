@@ -1,0 +1,16 @@
+<section class="ppjp-impressions">
+    <h2 class="ppjp-impressions__headline">{{headline}}</h2>
+    <picture class="ppjp-impressions__picture">
+        {{~#each sources ~}}
+            <source srcset="
+                {{~#each srcsets ~}}
+                    {{~src}}
+                {{~/each~}}"
+                {{~#if media}} media="{{media}}"{{/if ~}}/>
+        {{~/each~}}
+        <img class="ppjp-impressions__img"
+             src="{{src}}"
+             alt="{{alt}}"/>
+    </picture>
+  Test
+</section>

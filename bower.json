@@ -1,0 +1,13 @@
+{
+    "name": "christiane-deneser-photography",
+    "version": "0.0.0",
+    "moduleType": [ "globals" ],
+    "private": true,
+    "dependencies": {
+        "bourbon": "~4.1.1",
+        "modernizr": "~2.8.3",
+        "neat": "~1.7.1",
+        "normalize-scss": "~3.0.2",
+        "picturefill": "~2.2.0"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "projectName": "christiane-deneser-photography",
+    "projectDescription": "Project description",
+    "pageContent": [
+        {
+            "module": {
+                "view": "Impressions/Impressions",
+                "json": "Impressions/Impressions"
+            }
+        }
+    ]
+}

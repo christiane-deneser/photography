@@ -1,0 +1,31 @@
+{
+    "headline": "Boiler Plate",
+    "src": "/assets/img/loremipsum.jpg",
+    "alt": "Lorem ipsum",
+    "sources": [
+        {
+            "media": "(min-width: 48rem)",
+            "srcsets": [
+                {
+                    "src": "/assets/img/loremipsum.jpg"
+                }
+            ]
+        },
+        {
+            "media": "(min-width: 31.25rem)",
+            "srcsets": [
+                {
+                    "src": "/assets/img/loremipsum-768.jpg"
+                }
+            ]
+        },
+        {
+            "media": "(min-width: 18.75rem)",
+            "srcsets": [
+                {
+                    "src": "/assets/img/loremipsum-320.jpg"
+                }
+            ]
+        }
+    ]
+}
