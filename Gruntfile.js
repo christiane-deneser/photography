@@ -31,5 +31,5 @@ module.exports = function ( grunt ) {
     grunt.registerTask( 'export', [ 'default', 'express:dev', 'curl-dir', 'copy', 'assetspath' ]);
 
     grunt.registerTask( 'scss', [ 'scsslint', 'sass' ] );
-    grunt.registerTask( 'js', [ 'jscs', 'jshint', 'concat', 'uglify' ] );
+    grunt.registerTask( 'js', [ 'jshint', 'concat', 'uglify' ] );
 };
