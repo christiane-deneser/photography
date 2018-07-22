@@ -17,7 +17,8 @@
     "express": "^4.11.1",
     "express-handlebars": "^3.0.0",
     "glob": "^7.1.2",
-    "morgan": "^1.5.1"
+    "morgan": "^1.5.1",
+    "semver": "^5.5.0"
   },
   "devDependencies": {
     "connect-livereload": "^0.6.0",
